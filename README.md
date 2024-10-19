@@ -1,9 +1,9 @@
+# Count the kmers of a given genome and populate the frequency
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import subprocess
 
-# Set working directory
 wd = '/Users/gopal/Desktop/Research/KlebPneum'
 os.chdir(wd)
 
