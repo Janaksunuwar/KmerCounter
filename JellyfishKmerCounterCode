@@ -10,7 +10,6 @@
    ]
   },
   {
-# Count the kmers of a given genome and populate the frequency
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
