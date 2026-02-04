@@ -5,9 +5,9 @@ from collections import Counter
 logging.basicConfig(level=logging.INFO, format="%(levelname)s:%(message)s")
 
 K = 11
-INPUT_DIR = Path("/Users/gopal/Desktop/Research/pathogens/EnteroBac/GENOMES")
-OUTPUT_DIR = Path("/Users/gopal/Desktop/Research/pathogens/EnteroBac/OUTPUT")
-OUTPUT_FILE = OUTPUT_DIR / "common_kmers_enterobac.csv"
+INPUT_DIR = Path("ENTER PATH")
+OUTPUT_DIR = Path("ENTER PATH")
+OUTPUT_FILE = OUTPUT_DIR / "common_kmers_BACTERIA.csv"
 
 def read_fasta_sequence(fasta_file):
     """Read FASTA and return concatenated sequence."""
