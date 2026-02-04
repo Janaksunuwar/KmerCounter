@@ -15,7 +15,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import subprocess
 
-wd = '/Users/gopal/Desktop/Research/KlebPneum'
+wd = 'INSERT PATH'
 os.chdir(wd)
 
 def convert_fasta_to_single_line(input_file, output_file):
